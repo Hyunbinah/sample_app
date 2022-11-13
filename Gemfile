@@ -87,3 +87,8 @@ group :test do
   gem "webdrivers"
   gem 'rails-controller-testing'
 end
+
+group :production do
+  gem 'pg'
+end
+  
