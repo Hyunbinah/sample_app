@@ -1,5 +1,7 @@
 {
-  "start": "--openssl-legacy-provider start",
+  "engines": {
+    "node": "16.15.1"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "@rails/webpacker": "5.4.3",
