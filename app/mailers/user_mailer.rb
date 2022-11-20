@@ -7,6 +7,8 @@ class UserMailer < ApplicationMailer
   #
   def account_activation(user)
     @user = user
+    puts "smtp name: "
+    puts ENV['SENDGRID_USERNAME']
     mail to: user.email, subject: "Account activation"
   end
     
